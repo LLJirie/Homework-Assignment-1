@@ -66,6 +66,14 @@ h1 {
     background-color: #fff;
     border-color: #ddd;
 }
+#relative {
+    position: relative;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #eee;
+  }
 
 #nav-menu > li{
     display: inline-block;
