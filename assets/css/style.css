@@ -6,23 +6,24 @@ header {
     border-color: #cccccc;
     background-color: #fff;
 }
-nav h1{
+
+nav h1 {
     background-color: #c3f7f4;
     padding: 15px;
     display: inline-block;
     margin: 0;
-    
 }
-
 
 p {
     Font: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
     line-height: 30px;
     font-size: 20px;
 }
+
 h2 {
     font-size: 20px;
 }
+
 h1 {
     padding-top: 20px 0;
     padding-bottom: 20px;
@@ -31,22 +32,23 @@ h1 {
     font-size: 28px;
     color: #4aaaa5;
     text-align: left;
-
 }
+
 .container {
     width: 960px;
     margin: 0 auto;
     background-color: #fff;
     border-color: #ddd;
 }
+
 #bio-image {
     width: 200px;
     height: 200px;
     margin-right: 20px;
     float: left;
     width: 30%;
-
 }
+
 #footer {
     float: left;
     padding: 20px;
@@ -63,6 +65,7 @@ h1 {
     background-color: #fff;
     border-color: #ddd;
 }
+
 #relative {
     position: relative;
     height: 300px;
@@ -70,8 +73,9 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
     background: #eee;
-  }
-  #relative-contact {
+}
+
+#relative-contact {
     position: relative;
     height: 200px;
     padding: 20px;
@@ -79,13 +83,14 @@ h1 {
     text-align: center;
     background: #eee;
     max-width: 960;
-  }
+}
 
-#nav-menu > li{
+#nav-menu>li {
     display: inline-block;
     background-color: #fff;
     border-color: #ddd;
 }
+
 .footer {
     background-color: #666;
     position: absolute;
@@ -94,58 +99,56 @@ h1 {
     height: 75px;
     width: 100%;
     overflow: hidden;
-
 }
+
 input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  
-  input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  .container-contact {
+}
+
+.container-contact {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
- 
-  #portfolio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-    float: left;
-    width: 30%;
- }
- #portfolio-image1 {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-    float: left;
-    width: 30%;
- }
- #portfolio-image2 {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-    float: left;
-    width: 30%;
- }
+}
+
+
+.work {
+    position: relative;
+    width: 280px;
+    margin: 20px 0;
+    overflow: auto;
+}
+
+.work img {
+    width: 100%;
+}
+
+.work h3 {
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
