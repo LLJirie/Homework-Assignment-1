@@ -1,3 +1,7 @@
+body {
+    background: url("../images/herringbone.png")
+}
+
 header {
     background: #fff;
     display: block;
@@ -131,12 +135,13 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-
 .work {
     position: relative;
-    width: 280px;
+    width: 45%;
     margin: 20px 0;
     overflow: auto;
+    float: left;
+    margin-left: 3.3%;
 }
 
 .work img {
@@ -151,4 +156,16 @@ input[type=submit]:hover {
     padding: 15px 0;
     margin-bottom: 0;
     text-align: center;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrap1 {
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: auto;
 }
